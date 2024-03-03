@@ -20,7 +20,9 @@ Once he is at the success-page, he sees an input field and a submit button.
 ![Expected Outcome](./Expected/Bug3-5.png "Bug3-5")
 
 As soon as he gives any input, either some error shows up in the terminal, or if no error shows up, either it dosen't show any image, or if it shows the image, it doesn't show the image of the product he wants. He knows that there is a product called "Harry Potter", and ideally, this is the expected result. 
+
 ![Expected Outcome](./Expected/FinalExp.png "Bug3-5")
+
 These comprise of the Bug No. 3,4,5.
 
 ## Important Information
