@@ -1,4 +1,4 @@
-# Welcome to this Bug Challenge!!
+# Welcome to Fix the Bug Challenge!!
 
 ## Overview
 Jcube is trying to make a simple web-application, which allows him to see the image of the products he has in his database. This involves connecting to his database, and then searching for the product. Ideally, he should be able to connect to his database, then he should be able to enter the name of the product, and the image of the product should appear on the page. But life is not so simple. He tried to code the thing up, but, as expected, got various errors.
@@ -26,12 +26,12 @@ There is a cluster hosted in the MongoDB Atlas. The database name is "eshop-data
 
 ## Bug List
 ### Bug 1:
-First and foremost, as soon as he starts his project starts up, he sees a "Cannot GET /" message. He must solve this bug, so that he can see the option to Connect to his MongoDB Database.
+First and foremost, as soon as he starts his project starts up, he sees a "Cannot GET /" message. He had already made an HTML file for "/". He must solve this bug, so that he can see the option to Connect to his MongoDB Database.
 Here's what the expected outcome looks like: 
 
 ![Expected Outcome](./Expected/Bug1.png "Bug1")
 
-<b> Note: </b> You are NOT supposed to make any new routes, or modify the existing routes. 
+<b> Note: </b> You are NOT supposed to make any new routes, or modify the existing endpoints. 
 
 ### Bug 2:
 After solving the silly error, the next error is that, as soon as he clicks on the Button, ideally he should be redirected to the "/success-page" url. But nothing is happening. Your task is to make sure it automatically redirects to the "/success-page" url, 'by hook or by crook'.
