@@ -19,7 +19,7 @@ Create a .env file in the root directory of the folder, fill the following varia
 MONGODB_KEY="mongodb+srv://jcube:<password>@product-db.h86x1ox.mongodb.net/?retryWrites=true&w=majority&appName=Product-DB"
 ```
 
-The password would be provided to you.
+The password above should be replaced by - lambda_op_in_the_chat .
 
 ### Information regarding the database:
 There is a cluster hosted in the MongoDB Atlas. The database name is "eshop-database". It contains a collection called "products". One of the product is named "Harry Potter". After solving the bugs, you should be able to see it's image. The schema is provided in the codebase itself.
