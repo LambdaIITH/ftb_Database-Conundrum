@@ -33,8 +33,12 @@ Here's what the expected outcome looks like:
 
 <b> Note: </b> You are NOT supposed to make any new routes, or modify the existing endpoints. 
 
+<b> Hint: How do you serve static files? </b>
+
 ### Bug 2:
 After solving the silly error, the next error is that, as soon as he clicks on the Button, ideally he should be redirected to the "/success-page" url. But nothing is happening. Your task is to make sure it automatically redirects to the "/success-page" url, 'by hook or by crook'.
+
+<b> Hint: What happens after res.send() ? </b>
 
 ### Bugs 3,4,5:
 Once he is at the success-page, he sees an input field and a submit button. 
@@ -46,5 +50,7 @@ As soon as he gives any input, either some error shows up in the terminal, or if
 ![Expected Outcome](./Expected/FinalExp.png "Bug3-5")
 
 These comprise of the Bug No. 3,4,5.
+
+<b> Hint: Idk, maybe a syntax error somewhere? Or maybe Jcube dosen't know mongoose? Maybe he dosen't know body-parser? Or maybe all? </b>
 
 <b> All The Best...👍🏻 </b>
